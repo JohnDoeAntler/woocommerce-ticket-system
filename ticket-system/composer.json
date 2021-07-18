@@ -1,0 +1,22 @@
+{
+    "name": "john/ticket-system",
+    "type": "project",
+    "require": {
+        "johnbillion/extended-cpts": "^4.5",
+        "webdevstudios/cmb2-post-search-field": "^0.2.5",
+        "cmb2/cmb2": "^2.9"
+    },
+    "authors": [
+        {
+            "name": "JohnDoeAntler",
+            "email": "16289028+JohnDoeAntler@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "vendor/cmb2/cmb2/init.php",
+            "vendor/webdevstudios/cmb2-post-search-field/lib/init.php",
+            "vendor/jcchavezs/cmb2-conditionals/cmb2-conditionals.php"
+        ]
+    }
+}
